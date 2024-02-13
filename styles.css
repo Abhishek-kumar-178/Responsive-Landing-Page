@@ -10,7 +10,7 @@ body {
 .dropdown-content {
     display: none;
     position: absolute;
-    background-color: #f9f9f9;
+    background-color: yellowgreen;
     width: 200px; 
     top: 100%; 
     left: 0;
@@ -20,14 +20,14 @@ body {
 }
 
 .dropdown-content a {
-    color: #333;
+    color: brown;
     padding: 10px;
     text-decoration: none;
     display: block;
 }
 
 .dropdown-content a:hover {
-    background-color: #ddd;
+    background-color: blue;
 }
 
 .dropdown:hover .dropdown-content {
@@ -39,7 +39,7 @@ body {
     top: 0;
     width: 100%;
     background-color: black; 
-    transition: background-color 0.3s ease-in-out; 
+    transition: background-color 0.3s ease-in-out;
 }
 
 #navbar ul {
@@ -56,15 +56,15 @@ body {
 
 #navbar ul li a {
     text-decoration: none;
-    color: #333;
+    color: pink;
     font-weight: bold;
     transition: color 0.3s ease-in-out; 
 }
 
 #navbar ul li a.active {
-    color: #ff5733; 
+    color: orange; 
 }
 
 #navbar ul li a:hover {
-    color: #ff5733; 
+    color: orange; 
 }
